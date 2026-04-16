@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
+import { About } from "@/components/About";
 import { Features } from "@/components/Features";
 import { Products } from "@/components/Products";
 import { Applications } from "@/components/Applications";
@@ -14,6 +15,7 @@ export default function Home() {
     <main className="relative min-h-screen bg-aurum-dark text-white">
       <Navbar />
       <Hero />
+      <About />
       <Features />
       <div id="produtos">
         <Products />
