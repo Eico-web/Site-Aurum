@@ -27,15 +27,15 @@ export function Navbar() {
 
   return (
     <nav
-      className="fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-4 bg-black/90 backdrop-blur-md shadow-2xl"
+      className="fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-3 bg-black/90 backdrop-blur-md shadow-2xl transition-all duration-300"
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/logo.png"
+              src="/logo-vertical.png"
               alt="Aurum Espumas Logo"
-              width={180}
-              height={56}
+              width={100}
+              height={120}
               className="object-contain filter invert hue-rotate-180 mix-blend-screen"
             />
         </Link>
@@ -80,6 +80,6 @@ export function Navbar() {
           </button>
         </div>
       </div>
-    </motion.nav>
+    </nav>
   );
 }
