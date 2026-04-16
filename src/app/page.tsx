@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
-import { Features } from "@/components/Features";
 import { Products } from "@/components/Products";
 import { Applications } from "@/components/Applications";
 import { Contact } from "@/components/Contact";
@@ -16,7 +15,6 @@ export default function Home() {
       <Navbar />
       <Hero />
       <About />
-      <Features />
       <div id="produtos">
         <Products />
       </div>
