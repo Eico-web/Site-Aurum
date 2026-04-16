@@ -10,6 +10,7 @@ export function HeroAnimation() {
       <div className="w-full h-full relative">
         <video
           autoPlay
+          loop
           muted
           playsInline
           className="w-full h-full object-contain rounded-2xl"
