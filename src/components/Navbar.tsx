@@ -39,9 +39,9 @@ export function Navbar() {
             <Image
               src="/logo.png"
               alt="Aurum Espumas Logo"
-              width={100}
-              height={32}
-              className="object-contain filter invert hue-rotate-180 mix-blend-screen"
+              width={320}
+              height={100}
+              className="object-contain filter invert hue-rotate-180 mix-blend-screen transition-all duration-300"
             />
         </Link>
 
