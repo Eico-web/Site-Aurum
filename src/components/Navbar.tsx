@@ -30,14 +30,16 @@ export function Navbar() {
       className="fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-3 bg-black/90 backdrop-blur-md shadow-2xl transition-all duration-300"
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center">
+          <div className="bg-white p-4 rounded-b-3xl shadow-2xl border-x border-b border-white/20 -mt-4 transition-all duration-300">
             <Image
               src="/logo-vertical.png"
               alt="Aurum Espumas Logo"
-              width={100}
-              height={120}
-              className="object-contain filter invert hue-rotate-180 mix-blend-screen"
+              width={200}
+              height={240}
+              className="object-contain"
             />
+          </div>
         </Link>
 
         {/* Desktop Links */}
