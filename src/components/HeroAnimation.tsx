@@ -1,6 +1,16 @@
 "use client";
 
+import { useRef, useEffect } from "react";
+
 export function HeroAnimation() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.playbackRate = 0.5;
+    }
+  }, []);
+
   return (
     <div className="relative z-10 glass-gold rounded-[2.5rem] p-0 aspect-square flex items-center justify-center overflow-hidden border border-white/20 shadow-2xl">
       {/* Background overlay for texture */}
@@ -9,6 +19,7 @@ export function HeroAnimation() {
       {/* Video Container */}
       <div className="w-full h-full relative">
         <video
+          ref={videoRef}
           autoPlay
           loop
           muted

@@ -5,7 +5,6 @@ import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
 import { Products } from "@/components/Products";
-import { Applications } from "@/components/Applications";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
 
@@ -17,9 +16,6 @@ export default function Home() {
       <About />
       <div id="produtos">
         <Products />
-      </div>
-      <div id="aplicacoes">
-        <Applications />
       </div>
       <div id="contato">
         <Contact />
