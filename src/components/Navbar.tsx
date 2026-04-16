@@ -26,22 +26,17 @@ export function Navbar() {
   }, []);
 
   return (
-    <motion.nav
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 md:px-12 py-4",
-        isScrolled ? "bg-black/80 backdrop-blur-md py-3 shadow-2xl" : "bg-transparent"
-      )}
+    <nav
+      className="fixed top-0 left-0 right-0 z-50 px-6 md:px-12 py-4 bg-black/90 backdrop-blur-md shadow-2xl"
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
             <Image
               src="/logo.png"
               alt="Aurum Espumas Logo"
-              width={320}
-              height={100}
-              className="object-contain filter invert hue-rotate-180 mix-blend-screen transition-all duration-300"
+              width={180}
+              height={56}
+              className="object-contain filter invert hue-rotate-180 mix-blend-screen"
             />
         </Link>
 

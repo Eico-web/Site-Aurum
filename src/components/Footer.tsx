@@ -11,8 +11,8 @@ export function Footer() {
                 <Image
                     src="/logo.png"
                     alt="Aurum Espumas Logo"
-                    width={320}
-                    height={100}
+                    width={220}
+                    height={70}
                     className="object-contain filter invert hue-rotate-180 mix-blend-screen"
                 />
             </Link>
