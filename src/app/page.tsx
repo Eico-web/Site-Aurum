@@ -7,10 +7,22 @@ import { About } from "@/components/About";
 import { Products } from "@/components/Products";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen bg-aurum-dark text-white">
+    <main className="relative min-h-screen bg-aurum-dark text-white overflow-x-hidden">
+      {/* Background Watermark (Espelho d'água) */}
+      <div className="fixed inset-0 flex items-center justify-center pointer-events-none opacity-[0.03] z-0">
+        <Image 
+          src="/logo-watermark.png" 
+          alt="Watermark" 
+          width={800} 
+          height={800}
+          className="object-contain filter invert hue-rotate-180" 
+        />
+      </div>
+
       <Navbar />
       <Hero />
       <About />
