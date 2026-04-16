@@ -21,20 +21,20 @@ export function Hero() {
           <div className="flex items-center gap-2 mb-6">
             <div className="w-12 h-[1px] bg-aurum-gold" />
             <span className="text-aurum-gold text-sm font-bold tracking-[0.2em] uppercase">
-              Líder em Poliuretano Técnico
+              Soluções Técnicas em Materiais Poliméricos
             </span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold font-sans tracking-tight leading-[1.1] mb-8">
-            Soluções Técnicas em <br />
+            Peças em <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-aurum-gold to-aurum-amber">
-              Poliuretano
+              Poliuretano e EVA
             </span> <br />
-            de Alta Performance
+            sob Medida
           </h1>
           
           <p className="text-lg text-gray-400 mb-10 max-w-lg leading-relaxed">
-            Precisão industrial, durabilidade extrema e inovação para os desafios mais exigentes da indústria automotiva, mineração e construção.
+            A AURUM ESPUMAS transforma projetos em produtos funcionais e de alto desempenho. Entregamos precisão, padronização e eficiência para atender às mais rigorosas exigências da indústria moderna.
           </p>
 
           <div className="flex flex-wrap gap-4">
