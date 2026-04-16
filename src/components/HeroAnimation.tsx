@@ -12,12 +12,9 @@ export function HeroAnimation() {
   }, []);
 
   return (
-    <div className="relative z-10 p-2 rounded-3xl bg-white/5 border border-white/10 shadow-2xl backdrop-blur-sm group hover:border-aurum-gold/30 transition-colors duration-500">
-      {/* Subtle Inner Glow */}
-      <div className="absolute inset-0 rounded-3xl bg-gradient-to-tr from-aurum-gold/5 to-transparent pointer-events-none" />
-      
-      {/* Video Container with Simple Frame */}
-      <div className="relative rounded-2xl overflow-hidden border border-white/5">
+    <div className="relative z-10 p-1 rounded-[2rem] bg-white/5 border border-white/10 shadow-xl backdrop-blur-sm group hover:border-aurum-gold/20 transition-colors duration-500">
+      {/* Video Container with Minimalist Frame */}
+      <div className="relative rounded-[1.8rem] overflow-hidden">
         <video
           ref={videoRef}
           autoPlay
