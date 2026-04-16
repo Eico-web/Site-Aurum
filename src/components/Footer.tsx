@@ -7,15 +7,17 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
           <div className="md:col-span-2">
-             <Link href="/" className="inline-block mb-8">
-                <Image
-                    src="/logo-vertical.png"
-                    alt="Aurum Espumas Logo"
-                    width={180}
-                    height={220}
-                    className="object-contain filter invert hue-rotate-180 mix-blend-screen"
-                />
-            </Link>
+              <Link href="/" className="inline-block mb-8">
+                <div className="p-2 border border-white/10 rounded-2xl bg-white/[0.02] backdrop-blur-sm transition-all duration-300 hover:border-aurum-gold/30">
+                  <Image
+                      src="/logo-vertical.png"
+                      alt="Aurum Espumas Logo"
+                      width={180}
+                      height={220}
+                      className="object-contain filter invert hue-rotate-180 mix-blend-screen"
+                  />
+                </div>
+              </Link>
             <p className="text-gray-500 max-w-sm leading-relaxed">
               Especialistas em engenharia de poliuretano. Transformando desafios industriais em soluções duráveis e eficientes através de polímeros de alta tecnologia.
             </p>
