@@ -21,7 +21,7 @@ export function Hero() {
           <div className="flex items-center gap-2 mb-6">
             <div className="w-12 h-[1px] bg-aurum-gold" />
             <span className="text-aurum-gold text-sm font-bold tracking-[0.2em] uppercase">
-              Especialista em Soluções Técnicas Poliméricas
+              Precisão técnica aplicada à indústria
             </span>
           </div>
           
@@ -34,7 +34,7 @@ export function Hero() {
           </h1>
           
           <p className="text-lg text-gray-400 mb-10 max-w-lg leading-relaxed">
-            A AURUM ESPUMAS desenvolve soluções técnicas sob medida para as exigências da indústria moderna, transformando projetos em produtos funcionais, duráveis e de alto desempenho.
+            A AURUM ESPUMAS desenvolve soluções sob medida em poliuretano, polietileno e EVA, transformando projetos técnicos em produtos funcionais, duráveis e de alto desempenho.
           </p>
 
           <div className="flex flex-wrap gap-4">

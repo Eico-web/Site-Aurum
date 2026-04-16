@@ -18,8 +18,8 @@ export function Footer() {
                   />
                 </div>
               </Link>
-            <p className="text-gray-500 max-w-sm leading-relaxed">
-              Especialistas em engenharia de poliuretano. Transformando desafios industriais em soluções duráveis e eficientes através de polímeros de alta tecnologia.
+            <p className="text-gray-500 max-w-sm leading-relaxed font-medium uppercase tracking-[0.1em] text-xs">
+              Eficiência, durabilidade e confiança.
             </p>
           </div>
 

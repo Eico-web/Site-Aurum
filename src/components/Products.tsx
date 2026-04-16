@@ -39,8 +39,8 @@ export function Products() {
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               Portfólio de <span className="text-aurum-gold">Soluções</span>
             </h2>
-            <p className="text-gray-400 leading-relaxed">
-              Explore nossa gama de produtos desenvolvidos com polímeros de última geração, garantindo o melhor custo-benefício e performance do mercado.
+            <p className="text-gray-400 leading-relaxed font-medium">
+              Do projeto à peça final, com excelência. <span className="font-normal block mt-2">Explore nossa gama de produtos desenvolvidos com polímeros de última geração, garantindo o melhor custo-benefício e performance do mercado.</span>
             </p>
           </div>
           <button className="text-aurum-gold font-bold flex items-center gap-2 hover:gap-4 transition-all uppercase tracking-widest text-sm">

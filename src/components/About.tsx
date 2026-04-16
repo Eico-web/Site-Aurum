@@ -74,6 +74,7 @@ export function About() {
         {/* Values Section Title */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">Nossos VALORES</h2>
+          <p className="text-aurum-gold font-medium uppercase tracking-widest text-sm mb-4">Qualidade que garante desempenho</p>
           <div className="w-20 h-1 bg-aurum-gold mx-auto rounded-full" />
         </div>
 
