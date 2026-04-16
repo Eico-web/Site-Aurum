@@ -24,7 +24,7 @@ export function HeroAnimation() {
           loop
           muted
           playsInline
-          className="w-full h-full object-contain rounded-2xl"
+          className="w-full h-full object-cover"
         >
           <source src="/animacao site.mp4" type="video/mp4" />
           Seu navegador não suporta vídeos HTML5.
