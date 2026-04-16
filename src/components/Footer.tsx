@@ -9,10 +9,10 @@ export function Footer() {
           <div className="md:col-span-2">
              <Link href="/" className="inline-block mb-8">
                 <Image
-                    src="/logo.png"
+                    src="/logo-vertical.png"
                     alt="Aurum Espumas Logo"
-                    width={220}
-                    height={70}
+                    width={180}
+                    height={220}
                     className="object-contain filter invert hue-rotate-180 mix-blend-screen"
                 />
             </Link>
