@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="bg-black py-20 border-t border-white/5">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-12 mb-20">
           <div className="md:col-span-2">
               <Link href="/" className="inline-block mb-8">
                 <div className="p-2 border border-white/10 rounded-2xl bg-white/[0.02] backdrop-blur-sm transition-all duration-300 hover:border-aurum-gold/30">
@@ -29,7 +29,6 @@ export function Footer() {
               <li><Link href="#top" className="hover:text-aurum-gold transition-colors">Início</Link></li>
               <li><Link href="#sobre" className="hover:text-aurum-gold transition-colors">Sobre Nós</Link></li>
               <li><Link href="#produtos" className="hover:text-aurum-gold transition-colors">Produtos</Link></li>
-              <li><Link href="#aplicacoes" className="hover:text-aurum-gold transition-colors">Aplicações</Link></li>
             </ul>
           </div>
 
@@ -39,6 +38,27 @@ export function Footer() {
               <li><Link href="#" className="hover:text-aurum-gold transition-colors">Termos de Uso</Link></li>
               <li><Link href="#" className="hover:text-aurum-gold transition-colors">Privacidade</Link></li>
               <li><Link href="#" className="hover:text-aurum-gold transition-colors">Cookies</Link></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Contato</h4>
+            <ul className="space-y-4 text-gray-500 text-sm">
+              <li>
+                <a href="mailto:contato@aurumespumas.com.br" className="hover:text-aurum-gold transition-colors block">
+                  contato@aurumespumas.com.br
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="https://wa.me/5511993671102" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-aurum-gold transition-colors block"
+                >
+                  +55 (11) 99367-1102
+                </a>
+              </li>
             </ul>
           </div>
         </div>

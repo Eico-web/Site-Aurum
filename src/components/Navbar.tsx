@@ -10,7 +10,6 @@ const navLinks = [
   { name: "Início", href: "#top" },
   { name: "Sobre", href: "#sobre" },
   { name: "Produtos", href: "#produtos" },
-  { name: "Aplicações", href: "#aplicacoes" },
   { name: "Contato", href: "#contato" },
 ];
 
@@ -53,6 +52,14 @@ export function Navbar() {
               {link.name}
             </Link>
           ))}
+          <a 
+            href="https://wa.me/5511993671102" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-sm font-bold text-white hover:text-aurum-gold transition-colors hidden lg:block"
+          >
+            (11) 99367-1102
+          </a>
           <Link
             href="#contato"
             className="btn-primary text-sm py-2 px-6"
