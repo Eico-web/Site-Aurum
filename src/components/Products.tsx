@@ -7,7 +7,7 @@ const items = [
   {
     title: "Peças Técnicas Sob Medida",
     category: "Engenharia",
-    description: "Desenvolvimento de moldes e peças específicas para sistemas mecânicos complexos.",
+    description: "",
     className: "md:col-span-2 md:row-span-2",
   },
   {
