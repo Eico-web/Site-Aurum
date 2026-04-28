@@ -42,7 +42,7 @@ export default function Home() {
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         whileHover={{ scale: 1.1 }}
-        className="fixed bottom-8 right-8 z-50 shadow-2xl rounded-full overflow-hidden w-16 h-16 border-2 border-white/20 hover:shadow-aurum-gold/30 transition-shadow"
+        className="fixed bottom-8 right-8 z-50 hover:scale-110 transition-transform w-16 h-16 bg-transparent rounded-full overflow-hidden shadow-2xl"
       >
         <Image 
           src="/whatsapp-icon.jpg" 
