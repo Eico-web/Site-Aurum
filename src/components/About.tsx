@@ -33,7 +33,7 @@ const values = [
 
 export function About() {
   return (
-    <section className="py-24 bg-aurum-dark relative overflow-hidden">
+    <section id="sobre" className="py-24 bg-aurum-dark relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         
         {/* Mission & Vision */}
